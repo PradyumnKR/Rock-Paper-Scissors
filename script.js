@@ -26,6 +26,7 @@ function init() {
     mainimage.classList.remove("hide");
     resultcontainer.classList.add("hide");
     resultmaindiv.classList.add("hide");
+    compchoice = getRandomInt(3);
 }
 
 function choosingwinner(uscho, cmpcho) {
