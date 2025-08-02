@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="landingContainer">
+        <div class="title">
+            <p id="headline">ROCK PAPER SCISSORS!</p>
+            <p id = "subline">Who will be the winner?</p>
+        </div>
+        <div class="mainImage">
+            <img id = "rps" src="assets/rock-paper-scissors.png" alt="Rock Paper Scissors">
+        </div>
+        <div class="secondContainer">
+            <p id ="yourchoice">Your Choice ?</p>
+            <div class="choices jolly-lodger-regular">
+                <div class="rockk">
+                    <button class="choice" ><img src="assets/fist.png"  id="rock" alt="icon" id="rockImage" width="20" height="20">
+                </button><p class="choiceText">Rock</p>
+                </div>
+                <div class="paperr">
+                    <button class="choice" id="paper"><img src="assets/hand-palm.png" alt="icon" id="paperImage" >
+               </button> <p class="choiceText">Paper</p>
+                </div>
+                <div class="scissorss">
+                    <button class="choice" id="scissors"><img src="assets/peace.png" alt="icon" id="scissorImage"></button><p class="choiceText">Scissors</p>
+                </div>
+            </div>
+        </div>
+        <div class="resultMainDiv hide">
+            <div class="compChoice">
+                <img src="" alt="" id = "compCHOICE">
+                <p>Computer Chose : </p>
+            </div>
+            <div class="userChoice">
+                <img src="" alt="" id="userCHOICE">
+                <p>User Chose : </p>
+            </div>
+        </div>
+        <div class="result hide">
+            <p id="resultText">Result will be displayed here</p>
+            <button id="playAgain" >Play again ?</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

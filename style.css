@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Jolly+Lodger&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Jolly+Lodger&display=swap');
+
+:root{
+    --primary-color: #E0C200;
+    --box-color: #D9D9D9;
+    --text-color: #F4F3EE;  
+    --background-color : #1E1E1E;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.irish-grover-regular {
+  font-family: "Irish Grover", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.jolly-lodger-regular {
+  font-family: "Jolly Lodger", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+body{
+    background-color: var(--background-color);
+    color: var(--text-color);
+    text-align: center;
+    font-family: 'Irish Grover', cursive;
+    margin-top: 2vmin;  
+    
+}
+.landingContainer{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2vmin;
+    
+}
+#headline{
+    margin : 1vmin;
+    font-size: 8vmin;
+    color: var(--primary-color);
+    text-shadow: 0 0 .4rem rgba(217, 232, 2, 0.8);
+    position: relative;
+    
+}
+#subline{
+    font-size: 3.5vmin;
+    margin-top : 1vmin;
+    margin-bottom: 1.5vmin;
+    position: relative;
+}
+
+.mainImage{
+    height: 35vmin;
+    width: 35vmin;
+    border-radius: 10% ;
+    background-color: var(--box-color);
+    box-shadow: 0 0 1rem rgba(217, 232, 2, 0.8);
+}
+#rps{
+    height: 100%;
+    width: 100%;
+    padding: 4vmin;
+}
+.secondContainer{
+    margin-top: 5vmin;
+    height: 30vmin;
+    width: 100%;
+}
+
+#yourchoice{
+    margin-top: 2vmin;
+    margin-bottom: 5.5vmin;
+    font-size: 3.5vmin;
+}
+
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4vmin;
+    font-size: 3.5vmin;
+    font-family: 'Jolly Lodger', cursive;
+
+}
+
+.choice{
+    height: 10vmin;
+    width: 13vmin;
+    border-radius: 10vmin;
+    border : none;
+    background-color: var(--box-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 .6rem rgba(255, 255, 255, 0.6);
+    padding: 1vmin;
+}
+.choice img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10vmin;
+    
+}
+.choice:hover{
+    cursor: pointer;
+    box-shadow: 0 0 1rem rgba(217, 232, 2, 0.8);
+    transform: scale(1.05);
+    transition: all 0.2s ease-in-out;
+    background-color: var(--primary-color);
+    color: var(--background-color);
+}
+
+.choice:active{
+    box-shadow: 0 0 .4rem rgba(217, 232, 2, 0.8);
+    transform: scale(1);
+}
+
+.choiceText{
+    margin: 1.5vmin;
+    font-size: 4.5vmin;
+}
+
+.resultMainDiv{
+    display: flex;
+    gap: 3.5rem;
+}
+
+.resultMainDiv img{
+    height: 35vmin;
+    width: 35vmin;
+    border-radius: 10% ;
+    background-color: var(--box-color);
+    box-shadow: 0 0 1rem rgba(217, 232, 2, 0.8);
+}
+.result{
+    font-size: 2.5rem;
+    margin-top: 2rem;
+}
+#playAgain{
+    margin-top: 1.5rem;
+    font-family: 'Jolly Lodger', cursive; 
+    font-size: 1.5rem;
+    height: 10vmin;
+    width: 18vmin;
+    border-radius: 10vmin;
+    border : none;
+    background-color: var(--box-color);
+}
+#playAgain:hover{
+    cursor: pointer;
+    box-shadow: 0 0 1rem rgba(217, 232, 2, 0.8);
+    transform: scale(1.05);
+    transition: all 0.2s ease-in-out;
+    background-color: var(--primary-color);
+    color: var(--background-color);
+}
+
+#playAgain:active{
+    box-shadow: 0 0 .4rem rgba(217, 232, 2, 0.8);
+    transform: scale(1);
+}
+
+.hide {
+    display: none;
+}
